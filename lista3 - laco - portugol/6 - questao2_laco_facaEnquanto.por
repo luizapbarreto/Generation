@@ -5,7 +5,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num,soma=0, cont=1
+		inteiro num,soma=0, cont=0
 
 		escreva("Digite um numero: ")
 		leia(num)
@@ -14,8 +14,8 @@ programa
 		{
 			soma = soma + cont
 			cont++
-			escreva(soma)
-		}enquanto(soma <= num)
+		}enquanto(cont <= num)
+		escreva(soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 317; 
+ * @POSICAO-CURSOR = 243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
